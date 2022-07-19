@@ -1,0 +1,64 @@
+/*resetting the browser default style*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+li{
+    list-style: none;
+}
+body{
+    font-family: Arial;
+    background-color: aliceblue;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.heading{
+    margin: 15px 0;
+}
+/*for search box section*/
+.search-section{
+    background-color: aqua;
+    padding: 10px;
+}
+#search{
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.user-list-section{
+    margin-top: 20px;
+}
+li{
+    border: 1px solid #550857;
+    margin-top: -1px;
+    background-color: #f6f6f6;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 12px;
+}
+li:hover{
+    background-color: bisque;
+}
+/*pill button for username*/
+.username{
+    background-color: coral;
+    color: cornsilk;
+    padding: 6px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+/*MEDIA QUERY FOR LARGE SCREEN*/
+@Media screen and (min-width: 800px){
+    body{
+        width: 200px;
+        background-color: chartreuse;
+    }
+    li{
+        font-size: 14px;
+    }
+}
